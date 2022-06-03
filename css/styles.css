@@ -4,22 +4,16 @@
 }
 
 .gallery {
-  
-  max-width: 1140px;
- 
-  list-style: none;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.gallery__list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-auto-rows: 240px;
   grid-gap: 12px;
+  max-width: 1140px;
   justify-content: center;
   padding: 0;
   list-style: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gallery__item {
