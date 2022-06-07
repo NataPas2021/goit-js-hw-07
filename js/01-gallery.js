@@ -30,7 +30,7 @@ function onGalleryContainerClick(e) {
     if(!e.target.classList.contains('gallery__image')) {
         return;
     }
-    console.log(e.target);
+    
 
 }
 
